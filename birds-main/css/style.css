@@ -1,0 +1,74 @@
+body{
+    background-image: url("../images/pigeon-background.jpg");
+    background-color: #dddddd;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+p{
+    padding-top: 15px;
+}
+a{
+    font-size: 16px;
+    color: darkred;
+    text-decoration: wavy underline;
+
+}
+:focus{
+    border-width:6px;
+    border-style:dashed;
+    border-color:#417243;
+    outline: none;
+}
+h1{
+    text-align: center;
+    line-height: 2;
+    font: syncopate;
+}
+
+td{
+    text-align: center;
+    border-bottom: 2px black solid;
+    padding: 10px;
+}
+thead tr th{
+    min-width: 125px;
+    padding:10px;
+    text-transform:uppercase;
+    color: white;
+    background-color: #7e0820;
+    text-align:center;
+}
+tbody tr th{
+    border-bottom: 2px black solid;
+    border-left: 2px black solid;
+}
+
+tbody tr:nth-child(even){
+    background-color: #d1d1d1;
+}
+tbody tr:nth-child(odd){
+    background-color: #00000000;
+}
+tbody tr:hover{
+    background-color: #7e082040;
+}
+table{
+    border-spacing: 0px;
+    border-right: 2px black solid;
+    margin-left:auto;
+    margin-right:auto;
+    border-radius: 20px;
+}
+table thead th:first-of-type{
+    border-top-left-radius: 20px;
+}
+table thead th:last-of-type{
+    border-top-right-radius: 20px;
+}
+table tbody tr:last-child th:first-child{
+    border-bottom-left-radius: 20px;
+}
+table tbody tr:last-child td:last-child{
+    border-bottom-right-radius: 20px;
+}
